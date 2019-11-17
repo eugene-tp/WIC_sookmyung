@@ -26,5 +26,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    implementation files('src\\main\\jniLibs\\libDaumMapAndroid.jar')
+
+    implementation group: 'com.kakao.sdk', name: 'newtone', version: project.KAKAO_SPEECH_VERSION
+    implementation fileTree(include:['*.jar'], dir:'libs')
+    implementation files('libs\\libDaumMapAndroid.jar')
 }
