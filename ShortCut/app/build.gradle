@@ -29,5 +29,6 @@ dependencies {
 
     implementation group: 'com.kakao.sdk', name: 'newtone', version: project.KAKAO_SPEECH_VERSION
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation files('libs\\libDaumMapAndroid.jar')
+    implementation files('libs/libDaumMapAndroid.jar')
+
 }
