@@ -1,0 +1,83 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.shortcut"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->[com.kakao.sdk:newtone:6.0.1] C:\Users\EuGene\.gradle\caches\transforms-2\files-2.1\2ab316a9177c5cf672e29ed724840270\jetified-newtone-6.0.1\AndroidManifest.xml:12:5-71
+14-->[com.kakao.sdk:newtone:6.0.1] C:\Users\EuGene\.gradle\caches\transforms-2\files-2.1\2ab316a9177c5cf672e29ed724840270\jetified-newtone-6.0.1\AndroidManifest.xml:12:22-68
+15    <uses-permission android:name="android.permission.BLUETOOTH" />
+15-->[com.kakao.sdk:newtone:6.0.1] C:\Users\EuGene\.gradle\caches\transforms-2\files-2.1\2ab316a9177c5cf672e29ed724840270\jetified-newtone-6.0.1\AndroidManifest.xml:14:5-68
+15-->[com.kakao.sdk:newtone:6.0.1] C:\Users\EuGene\.gradle\caches\transforms-2\files-2.1\2ab316a9177c5cf672e29ed724840270\jetified-newtone-6.0.1\AndroidManifest.xml:14:22-65
+16
+17    <application
+17-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:9:5-32:19
+18        android:allowBackup="true"
+18-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:10:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\EuGene\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:11:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:12:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:13:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:14:9-35
+24        android:theme="@style/AppTheme" >
+24-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:15:9-40
+25        <activity android:name="com.example.shortcut.Main.SearchMapActivity" />
+25-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:17:9-59
+25-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:17:19-57
+26        <activity android:name="com.example.shortcut.MainActivity" />
+26-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:18:9-49
+26-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:18:19-47
+27        <activity android:name="com.example.shortcut.Navi.NaviStart" />
+27-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:19:9-51
+27-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:19:19-49
+28        <activity android:name="com.example.shortcut.Navi.NaviStartRunning" />
+28-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:20:9-58
+28-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:20:19-56
+29        <activity android:name="com.example.shortcut.Setting.SettingMain" />
+29-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:21:9-56
+29-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:21:19-54
+30
+31        <intent-filter>
+31-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:23:13-28:29
+32            <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:24:17-69
+32-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:24:25-66
+33            <action android:name="android.intent.action.VIEW" />
+33-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:25:17-69
+33-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:25:25-66
+34
+35            <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:27:17-77
+35-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:27:27-74
+36        </intent-filter>
+37
+38        <meta-data
+38-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:29:9-31:64
+39            android:name="com.kakao.sdk.AppKey"
+39-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:30:13-48
+40            android:value="349055b9d02b23cff8dc694629e8e1ec" />
+40-->C:\Users\EuGene\Desktop\etc\test\WIC_sookmyung\ShortCut\app\src\main\AndroidManifest.xml:31:13-61
+41    </application>
+42
+43</manifest>
