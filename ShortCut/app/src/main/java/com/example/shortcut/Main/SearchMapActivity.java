@@ -4,18 +4,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.RelativeLayout;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.shortcut.MainActivity;
-import com.example.shortcut.Navi.Navi_straight;
+import com.example.shortcut.Navi.NaviStraight;
 import com.example.shortcut.R;
 
 import net.daum.mf.map.api.MapPOIItem;
 import net.daum.mf.map.api.MapPoint;
-import net.daum.mf.map.api.MapReverseGeoCoder;
 import net.daum.mf.map.api.MapView;
 
 
@@ -47,7 +44,7 @@ public class SearchMapActivity extends AppCompatActivity {
     }
 
     public void onClick_search(View view){
-        Intent intent_navi_running = new Intent(this, Navi_straight.class);
+        Intent intent_navi_running = new Intent(this, NaviStraight.class);
         startActivity(intent_navi_running);
     }
 }
