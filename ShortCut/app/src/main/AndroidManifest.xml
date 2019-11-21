@@ -8,6 +8,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
+        android:networkSecurityConfig="@xml/network_security_config"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,7 +17,9 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Navi.NaviStraight"></activity>
         <activity android:name=".Navi.NaviStartRunning" />
-        <activity android:name=".Navi.NaviStart">
+        <activity android:name=".Navi.NaviStart"></activity>
+        <activity android:name=".Setting.SettingMain" />
+        <activity android:name=".Main.SearchMapActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -24,13 +27,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Setting.SettingMain" />
-        <activity android:name=".Main.SearchMapActivity" />
         <activity android:name=".MainActivity" />
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="349055b9d02b23cff8dc694629e8e1ec" />
+            android:value="96905ec450d4ef0975a5737dcf909332" />
     </application>
 
 </manifest>

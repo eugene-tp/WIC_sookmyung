@@ -39,13 +39,5 @@ public class MainActivity extends AppCompatActivity {
         Intent intent_navi_start = new Intent(this, SettingMain.class);
         startActivity(intent_navi_start);
     }
-    private TextToSpeechClient ttsClient;
 
-
-    ttsClient = new TextToSpeechClient.Builder()
-            .setSpeechMode(TextToSpeechClient.NEWTONE_TALK_1)     // 음성합성방식
-        .setSpeechSpeed(1.0)            // 발음 속도(0.5~4.0)
-        .setSpeechVoice(TextToSpeechClient.VOICE_WOMAN_READ_CALM)  //TTS 음색 모드 설정(여성 차분한 낭독체)
-        .setListener(this)
-        .build();
 }
