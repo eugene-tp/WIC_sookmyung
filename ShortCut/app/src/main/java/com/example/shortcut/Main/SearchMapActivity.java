@@ -34,7 +34,7 @@ public class SearchMapActivity extends AppCompatActivity {
         mapViewContainer.requestLayout();
 
         MapPOIItem marker = new MapPOIItem();
-        marker.setItemName("숙명여대");
+        marker.setItemName("숙명여대 ?");
 
         marker.setTag(0);
         marker.setMapPoint(mapPoint);// 기본으로 제공하는 BluePin 마커 모양.
