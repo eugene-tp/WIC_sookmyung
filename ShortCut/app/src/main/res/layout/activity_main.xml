@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main.MainActivity"
+    tools:context=".MainActivity"
     android:orientation="vertical"
     android:background="#FDDD02">
 
@@ -225,6 +225,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginLeft="130dp"
             android:background="#00ff0000"
+            android:onClick="onClick_navi_start"
             android:src="@drawable/ic_start_navi"></ImageButton>
     </LinearLayout>
 
@@ -272,7 +273,8 @@
             android:drawablePadding="4dp"
             android:text="설정"
             android:textColor="#ffffff"
-            android:textSize="12pt"></Button>
+            android:textSize="12pt"
+            android:onClick="onClick_setting"></Button>
 
     </LinearLayout>
 

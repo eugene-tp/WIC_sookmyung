@@ -22,22 +22,22 @@ public class SettingMain extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-            switch(v.getId()){
-                case R.id.setting_main_voice_guide_btn:
-                    break;
-                case R.id.setting_main_mic_btn:
-                    break;
-                case R.id.setting_main_vibration_btn:
-                    break;
-                case R.id.setting_main_schedule_btn:
-                    break;
-                case R.id.setting_main_beacon_btn:
-                    break;
-                case R.id.setting_main_account_btn:
-                    break;
-                case R.id.setting_main_close_btn:
-                    break;
-            }
+                switch(v.getId()){
+                    case R.id.setting_main_voice_guide_btn:
+                        break;
+                    case R.id.setting_main_mic_btn:
+                        break;
+                    case R.id.setting_main_vibration_btn:
+                        break;
+                    case R.id.setting_main_schedule_btn:
+                        break;
+                    case R.id.setting_main_beacon_btn:
+                        break;
+                    case R.id.setting_main_account_btn:
+                        break;
+                    case R.id.setting_main_close_btn:
+                        break;
+                }
             }
         };
     }

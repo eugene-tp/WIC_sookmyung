@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/start0_layout"
-    tools:context=".Navi_start0.Navi_start0_Activity">
+    tools:context=".Navi.NaviStart">
 
     <LinearLayout
         android:id="@+id/start0_layout1"
@@ -250,7 +250,8 @@
                 android:text="아니오"
                 android:textColor="#ffffff"
                 android:textSize="36dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:onClick="onClick_navi_return"/>
             <View
                 android:id="@+id/start0_view2"
                 android:layout_width="2dp"
@@ -266,7 +267,8 @@
                 android:text="예"
                 android:textColor="#ffffff"
                 android:textSize="36dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:onClick="onClick_navi_running"/>
         </LinearLayout>
     </LinearLayout>
 

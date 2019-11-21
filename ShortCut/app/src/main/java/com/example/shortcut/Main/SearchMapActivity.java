@@ -1,12 +1,16 @@
 package com.example.shortcut.Main;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.shortcut.MainActivity;
+import com.example.shortcut.Navi.Navi_straight;
 import com.example.shortcut.R;
 
 import net.daum.mf.map.api.MapPOIItem;
@@ -40,5 +44,10 @@ public class SearchMapActivity extends AppCompatActivity {
         marker.setSelectedMarkerType(MapPOIItem.MarkerType.RedPin);
         mapView.addPOIItem(marker);
 
+    }
+
+    public void onClick_search(View view){
+        Intent intent_navi_running = new Intent(this, Navi_straight.class);
+        startActivity(intent_navi_running);
     }
 }

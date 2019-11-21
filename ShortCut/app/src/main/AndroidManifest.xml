@@ -14,15 +14,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Navi.NaviStartRunning"></activity>
-        <activity android:name=".Favorite.FavoriteListImage" />
-        <activity android:name=".Favorite.FavoriteList" />
-        <activity android:name=".Navi.NaviStart" />
-        <activity android:name=".Navi.Navistart" />
-        <activity android:name=".delete.FavoriteDelete" />
-        <activity android:name=".Main.Navi_start0_1" />
-        <activity android:name=".Main.activity_navi_start0_1" />
-        <activity android:name=".Main.SearchMapActivity">
+        <activity android:name=".Navi.NaviStraight"></activity>
+        <activity android:name=".Navi.Navi_straight" />
+        <activity android:name=".Navi.NaviStartRunning" />
+        <activity android:name=".Navi.NaviStart">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -31,6 +26,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Setting.SettingMain" />
+        <activity android:name=".Main.SearchMapActivity" />
         <activity android:name=".MainActivity" />
 
         <meta-data
