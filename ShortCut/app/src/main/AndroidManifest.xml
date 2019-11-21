@@ -15,7 +15,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Navi.NaviStraight"></activity>
-        <activity android:name=".Navi.Navi_straight" />
         <activity android:name=".Navi.NaviStartRunning" />
         <activity android:name=".Navi.NaviStart">
             <intent-filter>
