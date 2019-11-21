@@ -28,6 +28,6 @@ public class NaviStartRunning extends AppCompatActivity {
                 startActivity(intent_Search_Map);
                 finish();
             }
-        }, 3000);
+        }, 2000);
     }
 }
