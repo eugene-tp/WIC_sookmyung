@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shortcut">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_shortcut"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main.MainActivityRest"></activity>
+        <activity android:name=".Navi.NaviEnd" />
+        <activity android:name=".Addition.EmergencyContract" />
+        <activity android:name=".Addition.Favorite" />
+        <activity android:name=".StepCampus.NaviStep18" />
+        <activity android:name=".StepCampus.NaviStep17" />
+        <activity android:name=".StepCampus.NaviStep16" />
+        <activity android:name=".StepCampus.NaviStep15" />
+        <activity android:name=".StepCampus.NaviStep14" />
+        <activity android:name=".StepCampus.NaviStep13" />
+        <activity android:name=".StepCampus.NaviStep12" />
+        <activity android:name=".StepCampus.NaviStep11" />
+        <activity android:name=".StepCampus.NaviStep10" />
+        <activity android:name=".StepCampus.NaviStep9" />
+        <activity android:name=".StepCampus.NaviStep8" />
+        <activity android:name=".StepCampus.NaviStep7" />
+        <activity android:name=".StepCampus.NaviStep6" />
+        <activity android:name=".StepCampus.NaviStep5" />
+        <activity android:name=".StepCampus.NaviStep4" />
+        <activity android:name=".StepCampus.NaviStep3" />
+        <activity android:name=".StepCampus.NaviStep2" />
+        <activity android:name=".StepCampus.NaviStep1" />
+        <activity android:name=".Navi.NaviLecture2" />
+        <activity android:name=".Main.MainActivity_2filled" />
+        <activity android:name=".Main.MainActivity_1filled" />
+        <activity android:name=".Navi.NaviLecture" />
+        <activity android:name=".Navi.NaviStraight" />
+        <activity android:name=".Navi.NaviStartRunning" />
+        <activity android:name=".Navi.NaviStart" />
+        <activity android:name=".Setting.SettingMain" />
+        <activity android:name=".Main.SearchMapActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="96905ec450d4ef0975a5737dcf909332" />
+    </application>
+
+</manifest>

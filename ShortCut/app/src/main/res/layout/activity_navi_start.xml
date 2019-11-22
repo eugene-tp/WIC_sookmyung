@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/start0_layout"
+    android:layout_width="360dp"
+    android:layout_height="612dp"
+    android:orientation="vertical"
+    tools:context=".Navi.NaviStart">
+
+    <LinearLayout
+        android:id="@+id/start0_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="436dp"
+        android:background="#FFDE17"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/start0_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/start0_layout3"
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/start0_layout4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/start0_map_nowgps_ic"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_main_nowgps"></ImageView>
+
+                <ImageView
+                    android:id="@+id/start0_map_dot_ic"
+                    android:layout_width="4dp"
+                    android:layout_height="12dp"
+                    android:layout_marginVertical="2dp"
+                    android:src="@drawable/dot"></ImageView>
+
+                <ImageView
+                    android:id="@+id/start0_map_main_ic"
+                    android:layout_width="30dp"
+                    android:layout_height="42dp"
+                    android:src="@drawable/ic_main_map"></ImageView>
+            </LinearLayout>
+            //icons
+
+            <LinearLayout
+                android:id="@+id/start0_layout5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/start0_layout6"
+                    android:layout_width="238dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp">
+
+                    <EditText
+                        android:id="@+id/start0_map_now_location_txt"
+                        android:layout_width="238dp"
+                        android:layout_height="42dp"
+                        android:background="@drawable/round_rec_in_main_map"></EditText>
+
+                    <TextView
+                        android:id="@+id/start0_text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="8dp"
+                        android:text="프라임관 203"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+                //top text input
+
+                <RelativeLayout
+                    android:id="@+id/start0_layout7"
+                    android:layout_width="238dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp">
+
+                    <EditText
+                        android:id="@+id/start0_map_detination_loacation_txt"
+                        android:layout_width="238dp"
+                        android:layout_height="42dp"
+                        android:background="@drawable/round_rec_in_main_map"></EditText>
+
+                    <TextView
+                        android:id="@+id/start0_text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="8dp"
+                        android:text="명신관 322"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+                //bottom text input
+            </LinearLayout>
+            //search input
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/start0_layout8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/start0_layout9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/start0_text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="6:07"
+                    android:textSize="60dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/start0_text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="80dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:text="예상 소요시간"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/start0_layout10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/start0_text5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="600"
+                    android:textSize="60dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/start0_text6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="80dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="남은 거리(m)"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/start0_layout11"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:background="#000000"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/start0_layout12"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/start0_text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="안내를 시작할까요?"
+                android:textColor="#FFDE17"
+                android:textSize="36dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/start0_view1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#ffffff" />
+
+        <LinearLayout
+            android:id="@+id/start0_layout13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/start0_yes_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:onClick="onClick_navi_return"
+                android:text="아니오"
+                android:textColor="#ffffff"
+                android:textSize="36dp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/start0_view2"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#ffffff" />
+
+            <Button
+                android:id="@+id/start0_no_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:onClick="onClick_navi_running"
+                android:text="예"
+                android:textColor="#ffffff"
+                android:textSize="36dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

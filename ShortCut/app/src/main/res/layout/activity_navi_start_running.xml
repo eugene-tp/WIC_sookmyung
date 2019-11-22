@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360dp"
+    android:layout_height="612dp"
+    tools:context=".Navi.NaviStartRunning"
+    android:orientation="vertical"
+    android:background="#CC000000">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center|bottom"
+        android:text="..."
+        android:textColor="#FFDE17"
+        android:textSize="30pt"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:layout_margin="8pt"
+        android:background="@drawable/round_rec_in_sub">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="위치를 탐색하고 있어요\n잠시만 기다려주세요!"
+            android:textColor="#FFDE17"
+            android:textSize="13pt"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

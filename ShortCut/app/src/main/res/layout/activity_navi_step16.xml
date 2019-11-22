@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/step16_layout1"
+    android:layout_width="360dp"
+    android:layout_height="612dp"
+    android:orientation="vertical"
+    tools:context=".StepCampus.NaviStep16">
+
+    <LinearLayout
+        android:id="@+id/step16_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="342dp"
+        android:background="#FFDE17"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ic_navi_step16"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/ic_turn_right" />
+
+        <LinearLayout
+            android:id="@+id/straight_step16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/step16_layout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/step16_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="2m"
+                    android:textSize="36dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/step16_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="앞에서"
+                    android:textSize="36dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/step16_layout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/step16_text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="오른쪽으로"
+                    android:textSize="36dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/step16_text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="꺾으세요"
+                    android:textSize="36dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/step16_layout6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/step16_layout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/step16_text5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="6:07"
+                android:textColor="#FFDE17"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/step16_text6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="600"
+                android:textColor="#FFDE17"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/step16_layout8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/step16_text7"
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="남은 시간"
+                android:textColor="#ffffff"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/step16_text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="남은 거리(m)"
+                android:textColor="#ffffff"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/step16_layout9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/step16_layout10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/step16_replay_btn"
+                    android:layout_width="124dp"
+                    android:layout_height="160dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="26dp"
+                    android:background="#00ff0000"
+                    android:drawableTop="@drawable/ic_replay"
+                    android:text="다시 듣기"
+                    android:textColor="#ffffff"
+                    android:textSize="11pt"></Button>
+
+                <Button
+                    android:id="@+id/step16_pause_btn"
+                    android:layout_width="124dp"
+                    android:layout_height="160dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="26dp"
+                    android:background="#00ff0000"
+                    android:drawableTop="@drawable/ic_pause"
+                    android:text="일시정지"
+                    android:textColor="#ffffff"
+                    android:textSize="11pt"></Button>
+
+                <Button
+                    android:id="@+id/step16_call"
+                    android:layout_width="124dp"
+                    android:layout_height="160dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="26dp"
+                    android:background="#00ff0000"
+                    android:drawableTop="@drawable/ic_main_call"
+                    android:text="비상 연락"
+                    android:textColor="#ffffff"
+                    android:textSize="11pt"></Button>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
