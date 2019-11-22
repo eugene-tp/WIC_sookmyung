@@ -33,5 +33,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent_navi_start = new Intent(this, SettingMain.class);
         startActivity(intent_navi_start);
     }
+<<<<<<< HEAD
     private TextToSpeechClient ttsClient;
+=======
+
+>>>>>>> b188306c3c1214d79038d16a519af32af8b0ea73
 }
